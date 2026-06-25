@@ -21,5 +21,23 @@ Notes on Specific Variables
 - BuildingArea: Building Size
 - CouncilArea: Governing council for the area  
 
+## Goal our project  
+
+Full cycle of data analyst work:
+cleaning -> EDA -> Feature engineering -> Model -> Predict -> Conclusions
+
+## Датасет
+
+- Name: **Melbourne Housing Snapshot**
+- Source (Kaggle): `https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot`
+- File: `melb_data.csv`
+- Target: column `Price` (sell price).
+
+Короткий зміст стовпців: характеристики об'єкта (кількість кімнат `Rooms`, тип житла `Type`, відстань до центру `Distance`, площа ділянки `Landsize`, рік побудови `YearBuilt`, координати тощо), а також район (`Suburb`, `Regionname`, `CouncilArea`), спосіб і дата продажу (`Method`, `Date`)
+
 ### Before cleaning and EDA:  
-Data set has 13580 rows, 21 columns
+- Data set has 13580 rows, 21 columns
+- Columns with null data: 
+
+
+
